@@ -1,35 +1,35 @@
-import { useId, useState } from 'react'
+import { useState } from 'react'
 import { SearchIcon } from './Icons'
-import { ModalAddCustomer } from './ModalAddCustomer'
+import { ModalCustomer } from './ModalCustomer'
 
 const dataTable = [
   {
     nombre: 'Liam James',
-    direccion: 'Software engineer',
+    direccion: '---',
     email: 'liamjames@example.com',
     celular: '945 552 635',
   },
   {
     nombre: 'Olivia Emma',
-    direccion: 'Product designer',
+    direccion: '---',
     email: 'oliviaemma@example.com',
     celular: '997 585 698',
   },
   {
     nombre: 'William Benjamin',
-    direccion: 'Front-end developer',
+    direccion: '---',
     email: 'william.benjamin@example.com',
     celular: '911 547 212',
   },
   {
     nombre: 'Henry Theodore',
-    direccion: 'Laravel engineer',
+    direccion: '---',
     email: 'henrytheodore@example.com',
     celular: '976 665 257',
   },
   {
     nombre: 'Amelia Elijah',
-    direccion: 'Open source manager',
+    direccion: '---',
     email: 'amelia.elijah@example.com',
     celular: '947 121 178',
   },
@@ -64,7 +64,7 @@ export const Customers = () => {
           onClick={handleModal}>
           Agregar Cliente
         </button>
-        <ModalAddCustomer visible={isModalVisible} setVisible={handleModal}/>
+        <ModalCustomer visible={isModalVisible} setVisible={handleModal}/>
         <div className="w-full">
           <form onSubmit={(e) => e.preventDefault()} className="mx-auto">
             <div className="relative">
