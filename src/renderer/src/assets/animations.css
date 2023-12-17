@@ -1,0 +1,131 @@
+@keyframes slideDown {
+  0% {
+    transform: translateY(0);
+    scale: 1;
+  }
+  50% {
+    transform: translateY(60vh);
+    scale: 1.5;
+  }
+
+  100% {
+    transform: translateY(0);
+    scale: 1;
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(0);
+    scale: 1;
+  }
+
+  50% {
+    transform: translateX(650px);
+    scale: 1.5;
+  }
+
+  100% {
+    transform: translateX(0);
+    scale: 1;
+  }
+}
+
+.icon-animated1-col {
+  animation: slideDown;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.icon-animated2-col {
+  animation: slideDown;
+  animation-duration: 3.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.icon-animated3-col {
+  animation: slideDown;
+  animation-duration: 6.2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.icon-animated4-col {
+  animation: slideDown;
+  animation-duration: 7.1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.icon-animated5-col {
+  animation: slideDown;
+  animation-duration: 3.2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.icon-animated6-col {
+  animation: slideDown;
+  animation-duration: 7.9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.icon-animated7-col {
+  animation: slideDown;
+  animation-duration: 8.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.icon-animated8-col {
+  animation: slideDown;
+  animation-duration: 5.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.icon-animated1-row {
+  animation: slideRight;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.icon-animated2-row {
+  animation: slideRight;
+  animation-duration: 5.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.icon-animated3-row {
+  animation: slideRight;
+  animation-duration: 5.9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.icon-animated4-row {
+  animation: slideRight;
+  animation-duration: 6.9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.icon-animated5-row {
+  animation: slideRight;
+  animation-duration: 5.1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.icon-animated6-row {
+  animation: slideRight;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.icon-animated7-row {
+  animation: slideRight;
+  animation-duration: 7.1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.icon-animated8-row {
+  animation: slideRight;
+  animation-duration: 6.2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
