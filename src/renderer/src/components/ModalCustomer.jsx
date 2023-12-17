@@ -1,11 +1,12 @@
 import { CloseIcon } from './Icons'
 
-export const ModalAddCustomer = ({ visible, setVisible }) => {
+export const ModalCustomer = ({ visible, setVisible }) => {
   const isVisible = visible ? 'block modal' : 'hidden'
 
   const handleSubmit = (e) => {
     e.preventDefault()
   }
+  
   return (
     <div className={isVisible}>
       <label onClick={setVisible}>
