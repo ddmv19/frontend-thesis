@@ -35,7 +35,6 @@ const dataTable = [
   },
 ]
 
-const tableHeaders = ['Nombre', 'Dirección', 'Email', 'Celular', 'Acciones']
 
 export const Customers = () => {
   const [pages, setPages] = useState(['1', '2', '3', , '...', '8', '9', '10'])
