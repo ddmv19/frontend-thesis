@@ -18,6 +18,7 @@ import { Dashboard } from './Dashboard'
 import { Store } from './Store'
 import { Customers } from './Customers'
 import { Employees } from './Employees'
+import { Roles } from './Roles'
 
 export const Menu = () => {
   const [value, setValue] = useState('Dashboard')
@@ -68,7 +69,9 @@ export const Menu = () => {
         <TabPanel value="Personal">
           <Employees />
         </TabPanel>
-        <TabPanel value="Roles">Roles</TabPanel>
+        <TabPanel value="Roles">
+          <Roles />
+        </TabPanel>
       </TabContext>
     </Box>
   )
