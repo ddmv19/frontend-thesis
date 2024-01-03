@@ -3,4 +3,4 @@ dist
 out
 *.log*
 pnpm-lock.yaml
-.vscode/
+.vscode
